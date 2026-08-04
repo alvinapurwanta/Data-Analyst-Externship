@@ -8,3 +8,19 @@ fruits.append("orange")  # Now the list is ["apple", "banana", "cherry", "orange
 fruits.remove("banana")  # Now the list is ["apple", "cherry", "orange"]
 # Accessing an item
 print(fruits[0])  # This will print "apple”
+
+
+
+
+
+--------------------------------------------------------------------------------------------------------------------
+
+
+# Creating a tuple of fruits
+fruits_tuple = ("apple", "banana", "cherry")
+
+# Accessing an item
+print(fruits_tuple[0])  # This will print "apple"
+
+# Trying to change a value (this will raise an error because tuples are immutable)
+# fruits_tuple[1] = "orange"
