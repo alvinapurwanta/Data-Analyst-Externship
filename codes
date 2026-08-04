@@ -24,3 +24,24 @@ print(fruits_tuple[0])  # This will print "apple"
 
 # Trying to change a value (this will raise an error because tuples are immutable)
 # fruits_tuple[1] = "orange"
+
+
+
+
+----------------------------------------------------------------------------------------------------------------------
+
+# Creating a set of grocery items
+grocery_set = {"apples", "bananas", "milk"}
+
+# Adding an item
+grocery_set.add("bread")  # Now the set is {"apples", "bananas", "milk", "bread"}
+
+# Removing an item
+grocery_set.remove("bananas")  # Now the set is {"apples", "milk", "bread"}
+
+# Trying to add a duplicate item (it won’t be added)
+grocery_set.add("milk")  # Set remains {"apples", "milk", "bread"}
+
+# Accessing items in a set (sets don’t have indexes)
+for item in grocery_set:
+    print(item)  # This will print the items, but in any order
