@@ -72,3 +72,28 @@ print(f"Updated list after removing milk: {grocery_list}")
 
 # Accessing the quantity of a specific item (apples)
 print(f"Number of apples: {grocery_list['apples']}")
+
+
+-----------------------------------------------------------------------------------------------------------------
+
+# Initial dictionary with grocery items and their quantities
+grocery_list = {
+    "apples": 4,
+    "bananas": 6,
+    "milk": 2
+}
+
+# Adding a new item to the dictionary
+grocery_list["bread"] = 1
+print(f"Updated list after adding bread: {grocery_list}")
+
+# Updating the quantity of an existing item (bananas)
+grocery_list["bananas"] = 8
+print(f"Updated list after changing banana quantity: {grocery_list}")
+
+# Removing an item from the dictionary (milk)
+grocery_list.pop("milk")
+print(f"Updated list after removing milk: {grocery_list}")
+
+# Accessing the quantity of a specific item (apples)
+print(f"Number of apples: {grocery_list['apples']}")
