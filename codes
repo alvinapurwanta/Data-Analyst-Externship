@@ -1,0 +1,10 @@
+
+# Creating a list of fruits
+fruits = ["apple", "banana", "cherry"]
+
+# Adding an item
+fruits.append("orange")  # Now the list is ["apple", "banana", "cherry", "orange"]
+# Removing an item
+fruits.remove("banana")  # Now the list is ["apple", "cherry", "orange"]
+# Accessing an item
+print(fruits[0])  # This will print "apple”
