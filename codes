@@ -97,3 +97,20 @@ print(f"Updated list after removing milk: {grocery_list}")
 
 # Accessing the quantity of a specific item (apples)
 print(f"Number of apples: {grocery_list['apples']}")
+
+--------------------------------------------------------------------------------------------------------------------
+# Set operations
+set_a = {1, 2, 3}
+set_b = {3, 4, 5}
+
+union = set_a | set_b
+print("Union:", union)
+
+intersection = set_a & set_b
+print("Intersection:", intersection)
+
+difference = set_a - set_b
+print("Difference:", difference)
+
+symmetric_difference = set_a ^ set_b
+print("Symmetric Difference:", symmetric_difference)
