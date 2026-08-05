@@ -114,3 +114,17 @@ print("Difference:", difference)
 
 symmetric_difference = set_a ^ set_b
 print("Symmetric Difference:", symmetric_difference)
+
+umm union = you cant duplicate things but includes everything thats different
+intersection = only you found in both section ONLY THEM
+different = removing the things that you have in the second section
+symetric_difference = the one that doesnt have in both 
+
+LIKEEEEE
+mine = {"nvidia", "voo", "vhy", "google"}
+friend = {"meta", "open", "netflix", "vgs"}
+NOTESSSSSS:
+union = every stocks
+intersection =  that we share (NVIDIA)
+different = only mine (whats mine bitch, read it)
+not share = not shared, all that we dont share like my man,except i dont have one lol
