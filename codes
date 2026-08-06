@@ -175,3 +175,9 @@ OKAY SO:
 2. TRUPLES YOU NEED "MY_TRUPLES + ("item")
 3. SET = REMEMBER UNION, DIFFERENCE, INTERSECTION, AND DONT FORGET SYMMETRIC DIFFERENCE
 4. DICTIONARY USES {} ANDDDD DONT FORGET COMA
+
+
+
+-----------------------------------------------------------------------------------------------------------------------
+
+so like if you wanna use def you need to use return cause it gives the automatic value, the updated and the newest
