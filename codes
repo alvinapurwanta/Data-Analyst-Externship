@@ -185,3 +185,13 @@ SUM = PUT EVERYTHING TOGETHER
 LEN = LENGTH (HOW MANY ARE THERE)
 
 WITH FUNCTION YOU USE RETURN == RESULT INSTEAD OF PRINT
+ ------------------------------------------------------------------------------------------------------------------------
+def vowel_string(text)
+    count = 0
+    for letter in text:
+        if letter in"aeiouAEIOU":
+          count+= 1
+        
+        return count
+      
+print(vowel_string("APPLE"))
