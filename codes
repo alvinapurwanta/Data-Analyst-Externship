@@ -183,3 +183,5 @@ OKAY SO:
 so like if you wanna use def you need to use return cause it gives the automatic value, the updated and the newest.
 SUM = PUT EVERYTHING TOGETHER
 LEN = LENGTH (HOW MANY ARE THERE)
+
+WITH FUNCTION YOU USE RETURN == RESULT INSTEAD OF PRINT
