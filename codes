@@ -195,3 +195,30 @@ def vowel_string(text)
         return count
       
 print(vowel_string("APPLE"))
+
+--------------------------------------------------------------------------------------------------------------------------
+
+CAPITALIZED WORDS??
+
+EXAMPLES:
+
+### Question 1: Python Basics
+
+**Task:** Write a function named `capitalize_words` that takes a string as input and returns a new string where every word is capitalized. Assume that words are separated by spaces.
+
+**Function Signature:**
+```python
+def capitalize_words(input_string):
+    pass
+```
+
+**Example:**
+```python
+print(capitalize_words("hello world"))  # Output: "Hello World"
+print(capitalize_words("python programming is fun"))  # Output: "Python Programming Is Fun"
+```
+
+<br>
+<br>
+
+### Write your code in the cell below:
