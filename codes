@@ -222,3 +222,13 @@ print(capitalize_words("python programming is fun"))  # Output: "Python Programm
 <br>
 
 ### Write your code in the cell below:
+
+so actually the words, capitalized, works:
+
+
+This is the function that you need to populate with your code
+def capitalize_words(alvina_purwanta):
+  capitalized= alvina_purwanta.title()
+  return capitalized
+
+did you see, the words itself give function
